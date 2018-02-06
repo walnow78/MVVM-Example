@@ -8,11 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		33B2D6ED20299D38003B67B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B2D6EC20299D38003B67B1 /* AppDelegate.swift */; };
-		33B2D6EF20299D38003B67B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B2D6EE20299D38003B67B1 /* ViewController.swift */; };
 		33B2D6F220299D38003B67B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33B2D6F020299D38003B67B1 /* Main.storyboard */; };
 		33B2D6F420299D38003B67B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33B2D6F320299D38003B67B1 /* Assets.xcassets */; };
 		33B2D6F720299D38003B67B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33B2D6F520299D38003B67B1 /* LaunchScreen.storyboard */; };
-		33B2D70220299D39003B67B1 /* MVVM_ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B2D70120299D39003B67B1 /* MVVM_ExampleTests.swift */; };
+		33B2D71120299E14003B67B1 /* APIPeople.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B2D71020299E14003B67B1 /* APIPeople.swift */; };
+		33B2D71320299E77003B67B1 /* APIPeopleMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B2D71220299E77003B67B1 /* APIPeopleMock.swift */; };
+		33B2D71520299E8C003B67B1 /* APIPeopleProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B2D71420299E8C003B67B1 /* APIPeopleProtocol.swift */; };
+		33B2D71920299EBB003B67B1 /* People.json in Resources */ = {isa = PBXBuildFile; fileRef = 33B2D71820299EBB003B67B1 /* People.json */; };
+		33B2D71B20299FEB003B67B1 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B2D71A20299FEB003B67B1 /* Person.swift */; };
+		33B2D71D2029A018003B67B1 /* PeopleListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B2D71C2029A018003B67B1 /* PeopleListViewModel.swift */; };
+		33B2D7212029A054003B67B1 /* PersonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B2D7202029A054003B67B1 /* PersonViewModel.swift */; };
+		33B2D7232029A082003B67B1 /* PeopleListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B2D7222029A082003B67B1 /* PeopleListViewController.swift */; };
+		33B2D7252029A0A9003B67B1 /* PersonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B2D7242029A0A9003B67B1 /* PersonCell.swift */; };
+		33B2D7272029A0C5003B67B1 /* PersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B2D7262029A0C5003B67B1 /* PersonViewController.swift */; };
+		33B2D7292029A22F003B67B1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 33B2D7282029A22F003B67B1 /* Localizable.strings */; };
+		33B2D72C2029AB34003B67B1 /* PeopleListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B2D72B2029AB34003B67B1 /* PeopleListViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,14 +38,24 @@
 /* Begin PBXFileReference section */
 		33B2D6E920299D38003B67B1 /* MVVM Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVM Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		33B2D6EC20299D38003B67B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		33B2D6EE20299D38003B67B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		33B2D6F120299D38003B67B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		33B2D6F320299D38003B67B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33B2D6F620299D38003B67B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		33B2D6F820299D38003B67B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		33B2D6FD20299D39003B67B1 /* MVVM ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MVVM ExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		33B2D70120299D39003B67B1 /* MVVM_ExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_ExampleTests.swift; sourceTree = "<group>"; };
 		33B2D70320299D39003B67B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33B2D71020299E14003B67B1 /* APIPeople.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIPeople.swift; sourceTree = "<group>"; };
+		33B2D71220299E77003B67B1 /* APIPeopleMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIPeopleMock.swift; sourceTree = "<group>"; };
+		33B2D71420299E8C003B67B1 /* APIPeopleProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIPeopleProtocol.swift; sourceTree = "<group>"; };
+		33B2D71820299EBB003B67B1 /* People.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = People.json; sourceTree = "<group>"; };
+		33B2D71A20299FEB003B67B1 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		33B2D71C2029A018003B67B1 /* PeopleListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleListViewModel.swift; sourceTree = "<group>"; };
+		33B2D7202029A054003B67B1 /* PersonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonViewModel.swift; sourceTree = "<group>"; };
+		33B2D7222029A082003B67B1 /* PeopleListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleListViewController.swift; sourceTree = "<group>"; };
+		33B2D7242029A0A9003B67B1 /* PersonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonCell.swift; sourceTree = "<group>"; };
+		33B2D7262029A0C5003B67B1 /* PersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonViewController.swift; sourceTree = "<group>"; };
+		33B2D7282029A22F003B67B1 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		33B2D72B2029AB34003B67B1 /* PeopleListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleListViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +97,16 @@
 		33B2D6EB20299D38003B67B1 /* MVVM Example */ = {
 			isa = PBXGroup;
 			children = (
+				33B2D72A2029A57F003B67B1 /* Views */,
+				33B2D70F20299DD3003B67B1 /* ViewModels */,
+				33B2D70E20299DCE003B67B1 /* Models */,
+				33B2D70C20299DB3003B67B1 /* API Services */,
 				33B2D6EC20299D38003B67B1 /* AppDelegate.swift */,
-				33B2D6EE20299D38003B67B1 /* ViewController.swift */,
 				33B2D6F020299D38003B67B1 /* Main.storyboard */,
 				33B2D6F320299D38003B67B1 /* Assets.xcassets */,
 				33B2D6F520299D38003B67B1 /* LaunchScreen.storyboard */,
 				33B2D6F820299D38003B67B1 /* Info.plist */,
+				33B2D7282029A22F003B67B1 /* Localizable.strings */,
 			);
 			path = "MVVM Example";
 			sourceTree = "<group>";
@@ -90,10 +114,48 @@
 		33B2D70020299D39003B67B1 /* MVVM ExampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				33B2D70120299D39003B67B1 /* MVVM_ExampleTests.swift */,
 				33B2D70320299D39003B67B1 /* Info.plist */,
+				33B2D72B2029AB34003B67B1 /* PeopleListViewModelTests.swift */,
 			);
 			path = "MVVM ExampleTests";
+			sourceTree = "<group>";
+		};
+		33B2D70C20299DB3003B67B1 /* API Services */ = {
+			isa = PBXGroup;
+			children = (
+				33B2D71020299E14003B67B1 /* APIPeople.swift */,
+				33B2D71220299E77003B67B1 /* APIPeopleMock.swift */,
+				33B2D71420299E8C003B67B1 /* APIPeopleProtocol.swift */,
+				33B2D71820299EBB003B67B1 /* People.json */,
+			);
+			path = "API Services";
+			sourceTree = "<group>";
+		};
+		33B2D70E20299DCE003B67B1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				33B2D71A20299FEB003B67B1 /* Person.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		33B2D70F20299DD3003B67B1 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				33B2D71C2029A018003B67B1 /* PeopleListViewModel.swift */,
+				33B2D7202029A054003B67B1 /* PersonViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		33B2D72A2029A57F003B67B1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				33B2D7222029A082003B67B1 /* PeopleListViewController.swift */,
+				33B2D7242029A0A9003B67B1 /* PersonCell.swift */,
+				33B2D7262029A0C5003B67B1 /* PersonViewController.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,6 +241,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33B2D7292029A22F003B67B1 /* Localizable.strings in Resources */,
+				33B2D71920299EBB003B67B1 /* People.json in Resources */,
 				33B2D6F720299D38003B67B1 /* LaunchScreen.storyboard in Resources */,
 				33B2D6F420299D38003B67B1 /* Assets.xcassets in Resources */,
 				33B2D6F220299D38003B67B1 /* Main.storyboard in Resources */,
@@ -199,8 +263,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33B2D6EF20299D38003B67B1 /* ViewController.swift in Sources */,
+				33B2D71B20299FEB003B67B1 /* Person.swift in Sources */,
+				33B2D71520299E8C003B67B1 /* APIPeopleProtocol.swift in Sources */,
+				33B2D7212029A054003B67B1 /* PersonViewModel.swift in Sources */,
+				33B2D71D2029A018003B67B1 /* PeopleListViewModel.swift in Sources */,
+				33B2D7232029A082003B67B1 /* PeopleListViewController.swift in Sources */,
+				33B2D71120299E14003B67B1 /* APIPeople.swift in Sources */,
+				33B2D7272029A0C5003B67B1 /* PersonViewController.swift in Sources */,
+				33B2D7252029A0A9003B67B1 /* PersonCell.swift in Sources */,
 				33B2D6ED20299D38003B67B1 /* AppDelegate.swift in Sources */,
+				33B2D71320299E77003B67B1 /* APIPeopleMock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,7 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33B2D70220299D39003B67B1 /* MVVM_ExampleTests.swift in Sources */,
+				33B2D72C2029AB34003B67B1 /* PeopleListViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

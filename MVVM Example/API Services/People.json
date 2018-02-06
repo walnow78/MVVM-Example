@@ -1,0 +1,32 @@
+[{
+ "firstName": "Sheldon",
+ "lastName": "Cooper",
+ "phoneNumber": "433 502 482"
+ },
+ {
+ "firstName": "Leonard",
+ "lastName": "Hofstadter",
+ "phoneNumber": "448 868 999"
+ },
+ {
+ "firstName": "Penny",
+ "lastName": "Hofstadter",
+ "phoneNumber": "428 782 138"
+ },
+ {
+ "firstName": "Rajesh",
+ "lastName": "Koothrappali",
+ "phoneNumber": "183 429 392"
+ },
+ {
+ "firstName": "Howard",
+ "lastName": "Wolowitz",
+ "phoneNumber": "978 663 333"
+ },
+ {
+ "firstName": "Bernadette",
+ "lastName": "Rostenkowski",
+ "phoneNumber": "203 749 742"
+ }
+ ]
+ 
